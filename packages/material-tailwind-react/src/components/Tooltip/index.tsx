@@ -60,7 +60,7 @@ import {
 export interface TooltipProps extends React.ComponentProps<"div"> {
   open?: open;
   handler?: handler;
-  content?: content;
+  content?: any;
   interactive?: interactive;
   placement?: placement;
   offset?: offset;
